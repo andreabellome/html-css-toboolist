@@ -23,19 +23,33 @@ h1{
 }
 
 .div_navigator{
-  width: 80%;
+  width: 70%;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   background-color: white;
 }
 
 .div_list{
   list-style-type: none;
   margin-top: 10px;
-  font-weight: bold;
 }
 
 main{
   background-color: rgba(204, 199, 199, 0.986);
   padding: 10px;
+}
+
+ul li{
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+ul li p{
+  font-weight: bold;
+}
+
+ul li p::before{
+    content: '\25BE';
+    color: black;
+    margin-right: 2px;
 }
