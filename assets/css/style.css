@@ -3,7 +3,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(204, 199, 199, 0.986);
+    background-color: #F6F8F9;
   }
 
 #logo{
@@ -21,12 +21,13 @@ body {
 .button_1{
   background-color: #47ADF1;
   color: white;
-  border: 2px solid #47ADF1;
+  border: 1.5px solid #47ADF1;
 }
 
 .button_2{
   color: #C9CED3;
-  border: 2px solid #C9CED3;
+  border: 1.5px solid #C9CED3;
+  background-color: white;
 }
 
 h1{
@@ -56,7 +57,7 @@ h1{
 }
 
 main{
-  background-color: rgba(204, 199, 199, 0.986);
+  background-color: #F6F8F9;
   padding: 10px;
 }
 
@@ -66,6 +67,14 @@ ul li{
 }
 
 ul li p{
+  font-weight: bold;
+}
+
+ul li span::before{
+  content: '\2713';
+  display: inline-block;
+  margin-right: 5px;
+  color: #7DCBBA;
   font-weight: bold;
 }
 
