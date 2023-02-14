@@ -6,6 +6,36 @@ body {
   }
 
 #logo{
-  display: inline-block;
   vertical-align: middle;
+}
+
+h1{
+  display: inline-block;
+  padding: 10px;
+}
+
+.div_logo{
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.div_navigator{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.div_list{
+  list-style-type: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+main{
+  background-color: rgba(204, 199, 199, 0.986);
+  padding: 10px;
 }
