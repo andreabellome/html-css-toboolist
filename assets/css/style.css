@@ -4,6 +4,7 @@ body {
     top: 0;
     left: 0;
     background-color: #F6F8F9;
+    font-family: Helvetica, Sans-Serif;
   }
 
 #logo{
@@ -42,6 +43,7 @@ h1{
   font-size: 40px;
   font-weight: bold;
   background-color: white;
+  border-radius: 5px;
 }
 
 .div_navigator{
@@ -49,11 +51,13 @@ h1{
   margin: auto;
   padding: 10px 30px 10px;
   background-color: white;
+  border-radius: 5px;
 }
 
 .div_list{
   list-style-type: none;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 main{
@@ -67,19 +71,42 @@ ul li{
 }
 
 ul li p{
+  font-size: 20px;
   font-weight: bold;
 }
 
-ul li span::before{
-  content: '\2713';
-  display: inline-block;
-  margin-right: 5px;
-  color: #7DCBBA;
-  font-weight: bold;
+ul li span{
+  font-size: 15px;
 }
 
 ul li p::before{
     content: '\25BE';
     color: black;
     margin-right: 2px;
+}
+
+ul li span.tick::before{
+  content: '\2713';
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #7DCBBA;
+  border: 1px solid #7DCBBA;
+  border-radius: 60%;
+  font-weight: bold;
+  font-size: 8px;
+  padding: 2px;
+}
+
+ul li span.cross::before{
+  content: '\2715';
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 80%;
+  font-weight: bold;
+  font-size: 8px;
+  padding: 2px;
 }
