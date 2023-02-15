@@ -75,6 +75,7 @@ main{
   padding: 10px;
 }
 
+/* LISTA INIZIA QUI */
 ul li{
   list-style-type: none;
   margin-top: 5px;
@@ -86,12 +87,7 @@ ul div{
   margin-bottom: 20px;
 }
 
-ul li p{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-ul li p::before{
+ul li h3::before{
     content: '\25BE';
     color: black;
     margin-right: 2px;
@@ -100,6 +96,7 @@ ul li p::before{
 ul li span{
   font-size: 15px;
 }
+/* LISTA FINISCE QUI */
 
 /* MARKS INIZIANO QUI */
 .marks::before{
