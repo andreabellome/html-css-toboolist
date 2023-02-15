@@ -101,100 +101,63 @@ ul li span{
   font-size: 15px;
 }
 
-ul li span.tick::before{
-  color: #7DCBBA;
-  border: 1px solid #7DCBBA;
-  content: '\2713';
-
+.marks::before{
+  text-align: center;
   display: inline-block;
   border-radius: 50%;
   padding: 1px 3px;
   margin-right: 7px;
   font-weight: bold;
   font-size: 8px;
+}
+
+ul li span.tick::before{
+  color: #7DCBBA;
+  border: 1px solid #7DCBBA;
+  content: '\2713';
 }
 
 ul li span.cross::before{
   content: '\2715';
   color: red;
   border: 1px solid red;
-  
-  display: inline-block;
-  border-radius: 50%;
-  padding: 1px 3px;
-  margin-right: 7px;
-  font-weight: bold;
+}
+
+.etichette::after{
+  margin-left: 5px;
+  padding: 5px 7px;
+  border-radius: 6px;
   font-size: 8px;
+  font-weight: bold;
+  color: var(--bg_white);
 }
 
 ul li span.editorial::after{
   content: 'Editorial';
   background-color: var(--bg_blue);
-
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
 
 ul li span.goals::after{
   content: 'Q1 Goals';
   background-color: #9C72E4;
-  
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
 
 ul li span.recruiting::after{
   content: 'Recruiting';
   background-color: #64C0A9;
-  
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
 
 ul li span.mobile::after{
   content: 'Mobile';
   background-color: #F29E33;
-  
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
 
 ul li span.website::after{
   content: 'Website';
   background-color: #D762A0;
-  
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
 
 ul li span.sales::after{
   content: 'Sales';
   background-color: #B0C926;
-  
-  margin-left: 5px;
-  padding: 5px 7px;
-  border-radius: 6px;
-  font-size: 8px;
-  font-weight: bold;
-  color: var(--bg_white);
 }
