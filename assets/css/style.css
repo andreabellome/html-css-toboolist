@@ -101,6 +101,7 @@ ul li span{
   font-size: 15px;
 }
 
+/* MARKS INIZIANO QUI */
 .marks::before{
   text-align: center;
   display: inline-block;
@@ -122,7 +123,9 @@ ul li span.cross::before{
   color: red;
   border: 1px solid red;
 }
+/* MARKS FINISCONO QUI */
 
+/* ETICHETTE INIZIANO QUI */
 .etichette::after{
   margin-left: 5px;
   padding: 5px 7px;
@@ -161,3 +164,4 @@ ul li span.sales::after{
   content: 'Sales';
   background-color: #B0C926;
 }
+/* ETICHETTE FINISCONO QUI */
